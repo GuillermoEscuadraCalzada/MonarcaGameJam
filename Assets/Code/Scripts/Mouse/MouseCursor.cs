@@ -9,7 +9,7 @@ namespace Mouse{
             Cursor.lockState = CursorLockMode.Confined;
         }
 
-        private void LateUpdate() {
+        private void Update() {
             MoveToMousePosition();
         }
 
