@@ -1,18 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Inputs;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class MouseCursor : MonoBehaviour, PlayerInputs.IMyActionMapActions
+public class MouseCursor : MonoBehaviour
 {
-    private PlayerInputs.MyActionMapActions _myActionMapActions;
 
     private void Awake()
     {
-        _myActionMapActions.Enable();
-        _myActionMapActions.AddCallbacks(this);
     }
 
     private void OnEnable()
@@ -21,7 +17,6 @@ public class MouseCursor : MonoBehaviour, PlayerInputs.IMyActionMapActions
 
     private void OnDisable()
     {
-        _myActionMapActions.Disable();
     }
 
     // Start is called before the first frame update

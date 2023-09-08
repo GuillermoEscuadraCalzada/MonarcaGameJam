@@ -1,18 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class InteractableObject : MonoBehaviour
+namespace Code.Scripts
 {
-    // Start is called before the first frame update
-    void Start()
+    public class InteractableObject : MonoBehaviour, IPointerEnterHandler
     {
-        
-    }
+        // Start is called before the first frame update
+        void Start()
+        {
+            
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
+        // Update is called once per frame
+        void Update()
+        {
+            
+        }
         
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            print("Pointer entered");
+        }
     }
 }
