@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace Code.Scripts
@@ -13,9 +13,10 @@ namespace Code.Scripts
         [SerializeField] bool hasPanel;
         GameObject panel;
         GameObject UIElement;
-        [SerializeField] Vector3 originalPos;
+        Vector3 originalPos;
 
-        [Header ("Drag and Drop")]
+        [Header("Drag and Drop")]
+        [SerializeField] UnityEvent onCorrectDropActions;
         Sprite sprite;
         private Vector3 mOffset;
 
@@ -97,6 +98,7 @@ namespace Code.Scripts
 
         private void AproveItem()
         {
+            onCorrectDropActions.Invoke();
             UIElement.GetComponent<Image>().enabled = false;
             Destroy(this.gameObject);
             UIElement.GetComponent<CircleCollider2D>().enabled = false;
