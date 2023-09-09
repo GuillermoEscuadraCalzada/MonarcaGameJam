@@ -1,0 +1,9 @@
+{
+"dictionaryGame":
+[
+	"Error", "No es la tarea correcta, favor de intentar de nuevo",
+	"Correcto", "Tarea exitosa",
+
+	"InfoObj1", "Descripción de objeto 1",
+]
+}
