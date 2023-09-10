@@ -3,6 +3,8 @@ using UnityEngine;
 namespace Mouse{
     public class MouseCursor : MonoBehaviour{
         private Camera cam;
+        public static Vector2 MousePosition;
+        public static Vector2 MousePositionWP;
         private void Start() {
             Cursor.visible = false;
             cam = Camera.main;
@@ -10,6 +12,8 @@ namespace Mouse{
         }
 
         private void Update() {
+            MousePosition = Input.mousePosition;
+            MousePositionWP = cam.ScreenToWorldPoint(MousePosition);
             MoveToMousePosition();
         }
 
@@ -18,9 +22,7 @@ namespace Mouse{
                 ShowCursor();
                 return;
             }
-            Vector2 mousePosition = Input.mousePosition;
-            mousePosition = cam.ScreenToWorldPoint(mousePosition);
-            transform.position = mousePosition;
+            transform.position = MousePositionWP;
         }
 
         public void ShowCursor() {

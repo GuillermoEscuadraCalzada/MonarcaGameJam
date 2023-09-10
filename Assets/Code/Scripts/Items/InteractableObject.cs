@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Mouse;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -25,7 +26,7 @@ namespace Code.Scripts
             if (panel == null)
                 panel = GameObject.Find("Panel Description");
             if (UIElement == null)
-                UIElement = GameObject.Find("UI Element");
+                UIElement = GameObject.Find("ObjectGrabbed");
             sprite = GetComponent<SpriteRenderer>().sprite;
             originalPos = this.transform.position;
         }
@@ -36,10 +37,9 @@ namespace Code.Scripts
             {
                 panel.SetActive(true);
             }
-
-            else
-            {
-                mOffset = gameObject.transform.position - GetMouseWorldPosition();
+            else{
+                Vector2 MTransformPos = gameObject.transform.position;
+                mOffset = MTransformPos - MouseCursor.MousePositionWP;
                 this.GetComponent<SpriteRenderer>().enabled = false;
                 UIElement.GetComponent<Image>().sprite = sprite;
                 UIElement.GetComponent<Image>().enabled = true;
@@ -58,12 +58,9 @@ namespace Code.Scripts
 
             if (!hasPanel)
             {
-                transform.position = GetMouseWorldPosition() + mOffset;
+                transform.position = MouseCursor.MousePositionWP + (Vector2)mOffset;
                 
-                Vector3 mousePos=Input.mousePosition;
-                float x = mousePos.x;
-                float y = mousePos.y;
-                UIElement.transform.position = new Vector3(x, y, 0);
+                UIElement.transform.position =MouseCursor.MousePosition;
             }
         }
 

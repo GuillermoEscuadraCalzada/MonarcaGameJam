@@ -51,7 +51,7 @@ public class LoadLanguage : MonoBehaviour
 
     public void TranslateGame()
     {
-        TranslateLang();
+        // TranslateLang();
     }
 
 
