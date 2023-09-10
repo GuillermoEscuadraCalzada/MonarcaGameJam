@@ -4,30 +4,35 @@ using UnityEngine;
 using UnityEngine.PlayerLoop;
 
 public class GamePause : MonoBehaviour{
-    [SerializeField] private GameObject pausePrefab;
-    private GameObject pauseRef;
+    [SerializeField] GameObject pauseRef;
     public static bool isGamePaused = false;
 
     void Awake() {
-        pauseRef = Instantiate(pausePrefab);
         pauseRef.SetActive(false);
-
     }
     private void Update() {
-        PauseGame();
+        TryPauseGame();
     }
 
-    void PauseGame() {
+    void TryPauseGame() {
         if (!Input.GetKeyDown(KeyCode.I)) return;
         if (!isGamePaused){
-            Time.timeScale = 0;
-            isGamePaused = !isGamePaused;
-            pauseRef.SetActive(true);
+            PauseGame();
         }
         else{
-            Time.timeScale = 1;
-            isGamePaused = !isGamePaused;
-            pauseRef.SetActive(false);
+            ResumeGame();
         }
+    }
+
+    public void PauseGame() {
+        Time.timeScale = 0;
+        isGamePaused = true;
+        pauseRef.SetActive(true);
+    }
+
+    public void ResumeGame() {
+        Time.timeScale = 1;
+        isGamePaused = false;
+        pauseRef.SetActive(false);
     }
 }
