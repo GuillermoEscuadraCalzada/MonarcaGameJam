@@ -12,4 +12,9 @@ public enum InventoryClass
 public class InventoryItem : MonoBehaviour
 {
     public InventoryClass inventoryClass;
+
+    public void ReproduceSound()
+    {
+        GetComponent<AudioSource>().Play();
+    }
 }

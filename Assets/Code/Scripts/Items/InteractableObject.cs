@@ -126,6 +126,7 @@ namespace Code.Scripts
                     {
                         if (CheckCollision(h.transform.GetComponent<InventoryItem>()))
                         {
+                            h.transform.GetComponent<InventoryItem>().ReproduceSound();
                             AproveItem();
                         }
                         ReturnItem();
