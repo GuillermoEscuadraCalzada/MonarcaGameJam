@@ -13,6 +13,7 @@ namespace Code.Scripts
         PanelObject panel;
         public bool hasPanel;
         [SerializeField] string idPanel;
+        [SerializeField] bool canMove;
         
         GameObject UIElement;
         Vector3 originalPos;
@@ -34,9 +35,48 @@ namespace Code.Scripts
             originalPos = this.transform.position;
         }
 
+        private void Update()
+        {
+            
+        }
+
+        private void CheckCollision()
+        {
+            canMove = true;
+            //Check for mouse click 
+            if (Input.GetMouseButtonDown(0))
+            {
+                RaycastHit raycastHit;
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                if (Physics.Raycast(ray, out raycastHit, 100f))
+                {
+                    if (raycastHit.transform != null)
+                    {
+                        //Our custom method. 
+                        CurrentClickedGameObject(raycastHit.transform.gameObject);
+                    }
+                }
+            }
+            
+
+        }
+
+        public void CurrentClickedGameObject(GameObject gameObject)
+        {
+            if (gameObject.tag == "Block")
+            {
+                canMove = false;
+            }
+            else
+            {
+                canMove = true;
+            }
+        }
+
         private void OnMouseDown()
         {
-            if (panel.canMove)
+            CheckCollision();
+            if (panel.canMove && canMove)
             {
                 if (hasPanel)
                 {
@@ -62,7 +102,8 @@ namespace Code.Scripts
 
         private void OnMouseDrag()
         {
-            if (!hasPanel && panel.canMove)
+            CheckCollision();
+            if (!hasPanel && panel.canMove && canMove)
             {
                 transform.position = GetMouseWorldPosition() + mOffset;
                 
