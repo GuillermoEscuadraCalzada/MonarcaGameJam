@@ -10,9 +10,12 @@ public class ScenesManager : MonoBehaviour{
     }
 
     public void EnableNextRoom() {
-        _puzzleRooms.CurrentPuzzleRoomIndex += 1;
-        if(_puzzleRooms.CurrentPuzzleRoomIndex > _puzzleRooms.puzzleRooms.Length - 1) Debug.LogError("No more puzzle rooms");
+        if(_puzzleRooms.CurrentPuzzleRoomIndex + 1 > _puzzleRooms.puzzleRooms.Length - 1) {
+         	return; 
+		}
         _puzzleRooms.CurrentPuzzleRoom.SetActive(false);
+        _puzzleRooms.CurrentPuzzleRoomIndex += 1;
+        _puzzleRooms.CurrentPuzzleRoom = _puzzleRooms.puzzleRooms[_puzzleRooms.CurrentPuzzleRoomIndex];
         _puzzleRooms.puzzleRooms[_puzzleRooms.CurrentPuzzleRoomIndex].SetActive(true);
     }
 }
