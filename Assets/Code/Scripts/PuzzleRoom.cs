@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using Code.Scripts;
 using UnityEngine;
 
 public class PuzzleRoom : MonoBehaviour{
-    public List<InventoryClass> sweepItems;
-    public List<InventoryClass> cleaningItems;
-    public List<InventoryClass> boxItems;
+    public List<InteractableObject> sweepItems;
+    public List<InteractableObject> cleaningItems;
+    public List<InteractableObject> boxItems;
     
 }
