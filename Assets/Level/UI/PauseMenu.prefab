@@ -256,7 +256,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 32413276803300404}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 224806187557910232}
+        m_TargetAssemblyTypeName: GamePause, Assembly-CSharp
+        m_MethodName: MainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2898571025045665637
 GameObject:
   m_ObjectHideFlags: 0

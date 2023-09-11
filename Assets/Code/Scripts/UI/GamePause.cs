@@ -5,10 +5,15 @@ using UnityEngine.PlayerLoop;
 
 public class GamePause : MonoBehaviour{
     [SerializeField] GameObject pauseRef;
+    private MSceneManager _scenesManager;
     public static bool isGamePaused = false;
 
     void Awake() {
         pauseRef.SetActive(false);
+    }
+
+    private void Start() {
+        _scenesManager = GameObject.Find("SceneManager").GetComponent<MSceneManager>();
     }
     private void Update() {
         TryPauseGame();
@@ -34,5 +39,9 @@ public class GamePause : MonoBehaviour{
         Time.timeScale = 1;
         isGamePaused = false;
         pauseRef.SetActive(false);
+    }
+
+    public void MainMenu() {
+        _scenesManager.LoadScene(0);
     }
 }
