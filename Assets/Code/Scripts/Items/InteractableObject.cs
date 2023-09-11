@@ -14,6 +14,7 @@ namespace Code.Scripts
         public bool hasPanel;
         [SerializeField] string idPanel;
         [SerializeField] bool canMove;
+        [SerializeField] PuzzleRoom room;
         
         GameObject UIElement;
         Vector3 originalPos;
@@ -33,6 +34,19 @@ namespace Code.Scripts
                 UIElement = GameObject.Find("UI Element");
             sprite = GetComponent<SpriteRenderer>().sprite;
             originalPos = this.transform.position;
+
+            switch (inventoryClass)
+            {
+                case InventoryClass.sweep:
+                    room.sweepItems.Add(this);
+                    break;
+                case InventoryClass.cleaning:
+                    room.cleaningItems.Add(this);
+                    break;
+                case InventoryClass.box:
+                    room.boxItems.Add(this);
+                    break;
+            }
         }
 
         private void Update()
