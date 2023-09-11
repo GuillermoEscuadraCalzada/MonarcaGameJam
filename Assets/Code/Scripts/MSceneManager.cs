@@ -17,5 +17,6 @@ public class MSceneManager : MonoBehaviour{
         _puzzleRooms.CurrentPuzzleRoomIndex += 1;
         _puzzleRooms.CurrentPuzzleRoom = _puzzleRooms.puzzleRooms[_puzzleRooms.CurrentPuzzleRoomIndex];
         _puzzleRooms.puzzleRooms[_puzzleRooms.CurrentPuzzleRoomIndex].SetActive(true);
+		_puzzleRooms.Arrow.SetActive(false);
     }
 }
