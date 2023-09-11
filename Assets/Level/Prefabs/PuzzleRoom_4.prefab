@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999401736976039001}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 8073796357244522247}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_Size.x
       value: 2.5862913
@@ -96,6 +100,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999401736976039001}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 8073796357244522247}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_Size.x
       value: 2.8294086
@@ -244,6 +252,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2173120264237335010, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
   m_PrefabInstance: {fileID: 402847954522652091}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8073796357244522247 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+  m_PrefabInstance: {fileID: 402847954522652091}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2a3decf2f63b5749a804b43274c8749, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &974323888400142065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -251,6 +270,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999401736976039001}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 8073796357244522247}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_Size.x
       value: 5.323675
@@ -352,6 +375,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999401736976039001}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 8073796357244522247}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_Size.x
       value: 3.887443
@@ -441,6 +468,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999401736976039001}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 8073796357244522247}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 19.2
@@ -526,6 +557,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999401736976039001}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 8073796357244522247}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_Size.x
       value: 1.9286234
@@ -627,6 +662,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999401736976039001}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 8073796357244522247}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_Size.x
       value: 7.9002542
@@ -728,6 +767,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999401736976039001}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 8073796357244522247}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_Size.x
       value: 2.974174
@@ -829,6 +872,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999401736976039001}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 8073796357244522247}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_Size.x
       value: 3.594162
@@ -910,6 +957,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999401736976039001}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 8073796357244522247}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_Size.x
       value: 3.7256737

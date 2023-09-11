@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3417233555788341243}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 4960958649735933093}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3
@@ -91,6 +95,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3417233555788341243}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 4960958649735933093}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 5
@@ -176,6 +184,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3417233555788341243}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 4960958649735933093}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 4
@@ -272,6 +284,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3417233555788341243}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 4960958649735933093}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 5.37
@@ -356,6 +372,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3417233555788341243}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 4960958649735933093}
     - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: inventoryClass
       value: 1
@@ -563,6 +583,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2173120264237335010, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
   m_PrefabInstance: {fileID: 3549974009453927961}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4960958649735933093 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+  m_PrefabInstance: {fileID: 3549974009453927961}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2a3decf2f63b5749a804b43274c8749, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3681218593252541916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -570,6 +601,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3417233555788341243}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 4960958649735933093}
     - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: inventoryClass
       value: 1
@@ -670,6 +705,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3417233555788341243}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 4960958649735933093}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 7.84
@@ -766,6 +805,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3417233555788341243}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 4960958649735933093}
     - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: inventoryClass
       value: 2
@@ -866,6 +909,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3417233555788341243}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 4960958649735933093}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 5
@@ -962,6 +1009,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3417233555788341243}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 4960958649735933093}
     - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: inventoryClass
       value: 2
@@ -1062,6 +1113,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3417233555788341243}
     m_Modifications:
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 4960958649735933093}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 8
