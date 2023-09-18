@@ -26,7 +26,7 @@ namespace Code.Scripts
         Sprite sprite;
         private Vector3 mOffset;
 
-        private void Start()
+        private void Awake()
         {
             if (panel == null)
                 panel = GameObject.Find("Panel Description").GetComponent<PanelObject>();

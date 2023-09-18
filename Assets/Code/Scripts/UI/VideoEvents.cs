@@ -10,7 +10,7 @@ public class VideoEvents : MonoBehaviour
     [SerializeField] UnityEvent videoFinished;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         player.loopPointReached += VideoFinish;
     }

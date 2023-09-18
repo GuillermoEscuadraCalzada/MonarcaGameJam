@@ -11,6 +11,50 @@ PrefabInstance:
       propertyPath: room
       value: 
       objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseCollectedObjects
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PuzzleRoom, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.x
+      value: 3.2419705
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.y
+      value: 2.2256098
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.04483962
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.044839382
+      objectReference: {fileID: 0}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3
@@ -99,6 +143,50 @@ PrefabInstance:
       propertyPath: room
       value: 
       objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseCollectedObjects
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PuzzleRoom, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.x
+      value: 3.8943748
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.y
+      value: 1.8653286
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.014919996
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.014919668
+      objectReference: {fileID: 0}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 5
@@ -188,6 +276,50 @@ PrefabInstance:
       propertyPath: room
       value: 
       objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseCollectedObjects
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PuzzleRoom, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.x
+      value: 4.1093044
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.y
+      value: 2.4133205
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.07066643
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 4
@@ -288,6 +420,50 @@ PrefabInstance:
       propertyPath: room
       value: 
       objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseCollectedObjects
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PuzzleRoom, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.x
+      value: 5.356922
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.y
+      value: 4.782754
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.1857605
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.13509798
+      objectReference: {fileID: 0}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 5.37
@@ -379,6 +555,50 @@ PrefabInstance:
     - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: inventoryClass
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseCollectedObjects
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PuzzleRoom, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.x
+      value: 1.2541499
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.y
+      value: 1.5845428
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.x
+      value: -5.752925
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.y
+      value: 2.9177287
       objectReference: {fileID: 0}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -526,11 +746,11 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 0341778fee8fa5e478fe4c72695a8cb6, type: 3}
     - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
       propertyPath: boxItems.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
       propertyPath: sweepItems.Array.size
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
       propertyPath: boxItems.Array.data[0]
@@ -542,7 +762,7 @@ PrefabInstance:
       objectReference: {fileID: 5399143016321791561}
     - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
       propertyPath: cleaningItems.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
       propertyPath: sweepItems.Array.data[0]
@@ -574,6 +794,78 @@ PrefabInstance:
       objectReference: {fileID: 1455581576840686996}
     - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
       propertyPath: cleaningItems.Array.data[1]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[2]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[3]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[4]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[5]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[6]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[7]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[8]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[9]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[10]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[11]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[12]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[13]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[14]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[15]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[16]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[17]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[18]
+      value: 
+      objectReference: {fileID: 791752475513093163}
+    - target: {fileID: 8474885088792261308, guid: faedd5cafd9cb1545abd15c88a5d49cf, type: 3}
+      propertyPath: cleaningItems.Array.data[19]
       value: 
       objectReference: {fileID: 791752475513093163}
     m_RemovedComponents: []
@@ -608,6 +900,42 @@ PrefabInstance:
     - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: inventoryClass
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseCollectedObjects
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PuzzleRoom, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.x
+      value: -6.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.39
       objectReference: {fileID: 0}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -709,6 +1037,50 @@ PrefabInstance:
       propertyPath: room
       value: 
       objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseCollectedObjects
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PuzzleRoom, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.x
+      value: 7.6805296
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.y
+      value: 5.283083
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.059861183
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.013469219
+      objectReference: {fileID: 0}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 7.84
@@ -813,6 +1185,50 @@ PrefabInstance:
       propertyPath: inventoryClass
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseCollectedObjects
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PuzzleRoom, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.x
+      value: 2.3439538
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.y
+      value: 4.9358635
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.15999472
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.07199764
+      objectReference: {fileID: 0}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 2.38
@@ -913,6 +1329,50 @@ PrefabInstance:
       propertyPath: room
       value: 
       objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseCollectedObjects
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PuzzleRoom, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.x
+      value: 2.4869142
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.y
+      value: 1.5298197
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.111091316
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.26490986
+      objectReference: {fileID: 0}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 5
@@ -1017,6 +1477,50 @@ PrefabInstance:
       propertyPath: inventoryClass
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseCollectedObjects
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PuzzleRoom, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.x
+      value: 2.8833747
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.y
+      value: 4.2283373
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.033392906
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.123113096
+      objectReference: {fileID: 0}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 2.59
@@ -1117,6 +1621,50 @@ PrefabInstance:
       propertyPath: room
       value: 
       objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4960958649735933093}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreaseCollectedObjects
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PuzzleRoom, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861000, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: onCorrectDropActions.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.x
+      value: 6.051292
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Size.y
+      value: 7.4036417
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.9424045
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.4028778
+      objectReference: {fileID: 0}
     - target: {fileID: 2820682135156861001, guid: db01e0279f37d144f9da249ebf59672c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 8
